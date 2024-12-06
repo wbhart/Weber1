@@ -717,17 +717,17 @@ For better overview, we write the different composition series to be compared in
 Accordingly, any two given composition series of P with their corresponding indices may be the following:
 
 $$
-P, Q, Q₁, Q₂, Q₃ ...
+P, Q, Q_1, Q_2, Q_3 ...
 $$
 $$
-v, v₁, v₂, v₃ ...
+v, v_1, v_2, v_3 ...
 $$
 
 $$
-P, Q', Q'₁, Q'₂, Q'₃ ...
+P, Q', Q'_1, Q'_2, Q'_3 ...
 $$
 $$
-v', v'₁, v'₂, v'₃ ...
+v', v'_1, v'_2, v'_3 ...
 $$
 
 Let now R be the intersection of Q and Q', and μ and μ' be the indices of R with respect to Q and Q'. Due to the isomorphism of the groups P/Q and Q'/R, we have μ' = v, and for the corresponding reason μ = v'. We form a composition series of R with its corresponding index series
@@ -791,20 +791,20 @@ For groups of order 2, which have only the one normal divisor 1, the theorem is 
 If in two composition series of P, which we now want to represent with their index series as
 
 $$
-P, P₁, P₂, P₃ ... P_{u-1}, 1
+P, P_1, P_2, P_3 ... P_{u-1}, 1
 $$
 $$
-j₁, j₂, j₃ ... j_{u-1}, j_u
-$$
-
-$$
-P, P'₁, P'₂, P'₃ ... P'_{s-1}, 1
-$$
-$$
-j'₁, j'₂, j'₃ ... j'_{s-1}, j'_s
+j_1, j_2, j_3 ... j_{u-1}, j_u
 $$
 
-a common member $P_r = P'_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P'_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r+1}, j_{r+2} ... j_u$ and $j'_{r+1}, j'_{r+2} ... j'_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
+$$
+P, P'_1, P'_2, P'_3 ... P'_{s-1}, 1
+$$
+$$
+j'_1, j'_2, j'_3 ... j'_{s-1}, j'_s
+$$
+
+a common member $P_r = P\'_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P\'_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r+1}, j_{r+2} ... j_u$ and $j\'_{r+1}, j\'_{r+2} ... j\'_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
 
 $$
 j_1, j_2 ... j_r \text{ and } j'_1, j'_2 ... j'_r
