@@ -505,7 +505,7 @@ $$
 The elements of the group Q/Q₁ are
 
 $$
-Q₁, Q₁b₁, ... Q₁b_{v_1-1}
+Q_1, Q_1b1, ... Q_1b_{v_1-1}
 $$
 
 When we decompose P into cosets with respect to Q₁, certainly the elements (5) appear among them, and consequently Q/Q₁ is a divisor of P/Q₁.
@@ -830,9 +830,9 @@ $$
 
 The greatest common divisor $R$ of all these groups is again a normal divisor of $P$.
 
-Now all the groups (1) are greatest normal divisors of $Q$, as follows from the final theorem of §3, since $Q_1, Q'_1$ are isomorphic with $a^{-1} Q a, a^{-1} Q_1 a$, while $Q$ as a normal divisor of $P$ with $a^{-1} Q a$ is identical. We can therefore allow each of the groups (1) with the same index $v$ to follow in the composition series for $Q$.
+Now all the groups (1) are greatest normal divisors of $Q$, as follows from the final theorem of §3, since $Q_1, Q\'_1$ are isomorphic with $a^{-1} Q a, a^{-1} Q_1 a$, while $Q$ as a normal divisor of $P$ with $a^{-1} Q a$ is identical. We can therefore allow each of the groups (1) with the same index $v$ to follow in the composition series for $Q$.
 
-If now $Q_2$ is the greatest common divisor of $Q_1, Q'_1$ (thus $Q_1$ different), then according to §6, 4., $Q_2$ is a greatest normal divisor of $Q_1$ and $Q'_1$, whose index is likewise $v$. Thus we can continue the composition series of $Q$ in both of the following ways:
+If now $Q_2$ is the greatest common divisor of $Q_1, Q\'_1$ (thus $Q_1$ different), then according to §6, 4., $Q_2$ is a greatest normal divisor of $Q_1$ and $Q\'_1$, whose index is likewise $v$. Thus we can continue the composition series of $Q$ in both of the following ways:
 
 $$
 Q, Q_1, Q_2, \quad Q\; Q'_1\; Q_2\\
@@ -841,7 +841,7 @@ $$
 
 We now want to generalize the law expressed here and prove it by complete induction.
 
-When $Q_2$ is not yet equal to $R$, we add to $Q_1, Q'_1$ a third group $Q''_1$ from the series (1) so that the intersection $Q_3$ of $Q_2, Q'_1, Q''_1$ becomes a proper divisor of $Q_2$, and continue in this way until we reach the greatest common divisor $R$ of all groups (1).
+When $Q_2$ is not yet equal to $R$, we add to $Q_1, Q\'_1$ a third group $Q\'\'_1$ from the series (1) so that the intersection $Q_3$ of $Q_2, Q\'_1, Q\'\'_1$ becomes a proper divisor of $Q_2$, and continue in this way until we reach the greatest common divisor $R$ of all groups (1).
 
 Let therefore:
 
@@ -850,7 +850,7 @@ $Q_3$ be the intersection of $Q_1, Q'_1, Q''_1$
 $\ldots$
 $Q_r$ be the intersection of $Q_1, Q'_1, Q''_1 \ldots Q_1^{(r-1)}$
 
-and the arrangement of the groups $Q_1, Q'_1 \ldots Q_1^{(r-1)}$ be chosen such that of the groups $Q_1, Q_2 \ldots Q_r$ each is a proper divisor of the preceding one. This arrangement can be continued as long as $Q_r$ is not equal to $R$.
+and the arrangement of the groups $Q_1, Q\'_1 \ldots Q_1^{(r-1)}$ be chosen such that of the groups $Q_1, Q_2 \ldots Q_r$ each is a proper divisor of the preceding one. This arrangement can be continued as long as $Q_r$ is not equal to $R$.
 
 We want to prove that we can choose the composition series of $P$ such that 
 $$
@@ -860,7 +860,7 @@ therein occurs, and that the indices in this part of the series are all equal to
 
 The claim is correct for $r = 2$, and we prove it generally by complete induction, under the assumption that it has already been proven for $r$.
 
-If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r+1}$ is the intersection of $Q_1, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q'_r$. Then $Q'_r$ is different from $Q_r$, and $Q_{r+1}$ is the intersection of $Q_r$ and $Q'_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
+If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r+1}$ is the intersection of $Q_1, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q\'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q\'_r$. Then $Q\'_r$ is different from $Q_r$, and $Q_{r+1}$ is the intersection of $Q_r$ and $Q\'_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
 
 $$
 Q, Q_1 \ldots Q_{r-1} Q_r,\\
