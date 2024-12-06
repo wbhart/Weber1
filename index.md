@@ -153,7 +153,7 @@ The properties of groups that can come into consideration are of different kinds
 
 To the first kind of properties, which are derived from the particular nature of the elements, belong for example in permutation groups the properties of transitivity and intransitivity, of primitivity and imprimitivity; to the invariant properties belong exchangeability or non-exchangeability, the order, the divisors and their index, the normal divisors. With these invariant properties, for which it is irrelevant from which representative of a class of isomorphic groups they are derived, we shall first concern ourselves.
 
-## §2. The Divisors of Finite Groups
+### §2. The Divisors of Finite Groups
 
 As we have already seen in the first volume, it is a particularly important question whether a part of the elements of a group itself forms a group again. For this, it is necessary and sufficient that any two elements of this part yield under composition an element belonging to the same part. This smaller group is then called a divisor or factor of the whole group. The unity element "1" forms in every group by itself a group, thus is a divisor in every group.
 
@@ -274,7 +274,7 @@ Thus we have for every element $a^α = 1$.
 
 The group $A$ is called the period of the element $a$ and $α$ is also called the order of the element.
 
-## §3. Normal Divisors of a Group
+### §3. Normal Divisors of a Group
 
 If $P$ is a group as above and $Q$ a divisor of $P$, further $b$ is an element of $P$ not contained in $Q$, then the coset $Qb$ is not a group. However, the system $b^{-1}Qb$, or written out in full
 
@@ -331,7 +331,7 @@ We mention also the following theorem, whose correctness follows immediately fro
 
 If $Q$ is a divisor of $P$, $R$ a divisor of $Q$, then if $Q'$ and $R'$ are transformed from $Q$ and $R$ by the same element of $P$, $R'$ is also a divisor of $Q'$, and if $R$ is a normal divisor of $Q$, then $R'$ is also a normal divisor of $Q'$.
 
-Composition of Parts
+### §4. Composition of Parts
 
 If $A$ and $B$ are any two series of elements from a group $P$ (groups or not), then by the symbolic product $AB$ we will understand the totality of all elements that one obtains when multiplying each element $a$ of $A$ with each element $b$ of $B$ according to the composition rule valid in $P$ to form $ab$. We will call this type of combination of $A$ and $B$ to $AB$ the composition of parts (of $P$).
 
@@ -352,10 +352,12 @@ $$
 For this equation says nothing other than that when $a$ and $a'$ are contained in $A$, $aa'$ also belongs to $A$, thus that $A$ is a group.
 
 2. Through the two equations
+
 $$
 AA = A,
 AB = BA
 $$
+
 where $A$ is a specific part, $B$ can be any part of $P$, it is stated that $A$ is a normal divisor of $P$.
 
 For according to (2), $A$ is a divisor of $P$ and according to (3) for each element $b$ of $P$
@@ -365,9 +367,11 @@ $$
 i.e., $A$ is a normal divisor.
 
 3. If $A$ and $B$ are two divisors of $P$ (groups), then one of the two equations
+
 $$
 AB = A, BA = A
 $$
+
 is the necessary and sufficient condition for $B$ to be a divisor of $A$.
 
 For if $B$ is a group and a divisor of group $A$, and if $a$ is in $A$, $b$ in $B$ and thus also in $A$ contained, then $ab$ is also contained in $A$. $A$ thus contains every element of $AB$.
@@ -377,9 +381,11 @@ If, however, secondly $B$ as a group also contains the element 1, then $AB$ also
 Similarly, one sees that $BA$ is identical with $A$. Conversely, it follows from each of equations (4), since $A$ as a group contains the unit element, that every element of $B$ is contained in $A$, thus $B$ is a divisor of $A$.
 
 4. In the composition of parts, the system of cosets to a normal divisor of $P$ itself forms a group, in which the normal divisor $N$ forms the unit element, and
+
 $$
 Nb, Nb^{-1}
 $$
+
 are inverse elements.
 
 For if $N$ is a normal divisor of $P$ and
@@ -438,7 +444,7 @@ This is self-evident, because for every element $b$ of $P$, $b^{-1}N'b = N'$ is 
 
 However, one must not conclude conversely that, when $N$ is a normal divisor of $P$, $N'$ a normal divisor of $N$, $N'$ must also be a normal divisor of $P$.
 
-Multi-stage Isomorphism
+### §5. Multi-stage Isomorphism
 
 If as above $N$ is a normal divisor of $P$ of degree $v$ and index $\mu$, thus $n = \mu v$, then the complementary group $P/N$ to $P$ is of degree $\mu$. We want to denote this or an isomorphic group with $Q$ and denote its elements, which correspond to the cosets $N$, $Nb_1$, $Nb_2 \ldots$, with $A$, $B$, $C \ldots$. To each of these elements correspond $v$ elements of group $P$, namely
   to element $A$ the elements $a$, $a_1 \ldots a_{v-1}$
@@ -458,7 +464,7 @@ It lets itself first prove that to each of the elements $A$, $B$, $C \ldots$ an 
 
 We see thus that there is no other multi-stage isomorphism than that between the complementary group of a normal divisor and the total group. One could however expand the concept of isomorphism further such that one calls two groups that are $\mu$- and $v$-stage isomorphic to a third group, $\mu$-$v$-stage isomorphic to each other. By far the most important is the one-stage isomorphism, which we therefore denote simply as isomorphism, while a multi-stage isomorphism should always be made recognizable through an addition.
 
-Composition Series and Jordan's Theorem
+### §6. Composition Series and Jordan's Theorem
 
 A group $P$ is called simple when it has no normal divisor besides itself and unity; composite, when other normal divisors are present.
 
@@ -690,6 +696,7 @@ From this we can form the elements of the group complementary to $R$ with respec
 $$
 Q/R = R, Rb_1, Rb_2, Rb_3 \ldots
 $$
+
 $$
 P/Q' = Q', Q'b_1, Q'b_2, Q'b_3 \ldots
 $$
@@ -721,6 +728,7 @@ Accordingly, any two given composition series of $P$ with their corresponding in
 $$
 P, Q, Q_1, Q_2, Q_3 \ldots
 $$
+
 $$
 v, v_1, v_2, v_3 \ldots
 $$
@@ -728,6 +736,7 @@ $$
 $$
 P, Q', Q'_1, Q'_2, Q'_3 \ldots
 $$
+
 $$
 v', v'_1, v'_2, v'_3 \ldots
 $$
@@ -737,6 +746,7 @@ Let now $R$ be the intersection of $Q$ and $Q'$, and $\mu$ and $\mu'$ be the ind
 $$
 R, R_1, R_2, R_3 \ldots
 $$
+
 $$
 \mu_1, \mu_2, \mu_3 \ldots
 $$
@@ -746,6 +756,7 @@ and since $R$ is now a greatest normal divisor of $Q$ and of $Q'$, we can form f
 $$
 P, Q, R, R_1, R_2, R_3 \ldots
 $$
+
 $$
 v, v', \mu_1, \mu_2, \mu_3 \ldots
 $$
@@ -753,6 +764,7 @@ $$
 $$
 P, Q', R, R_1, R_2, R_3 \ldots
 $$
+
 $$
 v', v, \mu_1, \mu_2, \mu_3 \ldots
 $$
@@ -764,6 +776,7 @@ If we now assume that the theorem to be proven has already been proven correct f
 $$
 v_1, \mu_1, \mu_2, \mu_3 \ldots
 $$
+
 $$
 v'_1, v'_2, v'_3, v'₄ \ldots
 $$
@@ -773,6 +786,7 @@ agree, disregarding the arrangement. Similarly, the index series of $Q'$
 $$
 v, \mu_1, \mu_2, \mu_3 \ldots
 $$
+
 $$
 v_1, v'_2, v'_3, v'₄ \ldots
 $$
@@ -782,6 +796,7 @@ agree. Thus the two index series of $P$ also agree
 $$
 v, v_1, v_2, v_3, v₄ \ldots
 $$
+
 $$
 v', v'_1, v'_2, v'_3, v'₄ \ldots
 $$
@@ -795,6 +810,7 @@ If in two composition series of $P$, which we now want to represent with their i
 $$
 P, P_1, P_2, P_3 \ldots P_{u-1}, 1
 $$
+
 $$
 j_1, j_2, j_3 \ldots j_{u-1}, j_u
 $$
@@ -802,6 +818,7 @@ $$
 $$
 P, P'_1, P'_2, P'_3 \ldots P'_{s-1}, 1
 $$
+
 $$
 j'_1, j'_2, j'_3 \ldots j'_{s-1}, j'_s
 $$
@@ -814,8 +831,7 @@ $$
 
 must also agree.
 
-§. 7.
-Further Theorems about Composition Series.
+### §. 7. Further Theorems about Composition Series.
 
 Many theorems hold for composition series, of which we will here derive the most important ones.
 
@@ -900,8 +916,7 @@ $$
 
 in such a way that whenever a change occurs in the index series, thus $j_{r+1}$ is different from $j_r$, $P_r$ is a normal divisor of $P$.
 
-§8.
-Metacyclic Groups.
+### §8. Metacyclic Groups.
 
 In §176 of the first volume, we defined metacyclic groups for permutation groups and learned about their significance for solving equations. However, the concept is independent of the special significance of the group elements, and we therefore now define generally:
 
