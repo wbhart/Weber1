@@ -52,7 +52,7 @@ abcd = (ab)cd = [(ab)c]d = (ab)(cd) \\
 = ab(cd) = (ab)(cd) = a[b(cd)]
 $$
 
-3. It is assumed that if $ab = ab\textrm'$ or $ab = a\textrm'b$, then necessarily in the first case $b = b\textrm'$, in the second case $a = a\textrm'$ must hold.
+3. It is assumed that if $ab = ab\text{'}$ or $ab = a\text{'}b$, then necessarily in the first case $b = b\text{'}$, in the second case $a = a\text{'}$ must hold.
 
 If $P$ encompasses a finite number of elements, then the group is called finite and the number of its elements is its order.
 
@@ -86,13 +86,13 @@ $$
 ebc = bc
 $$
 
-and $bc$ can mean any element in $P$ according to 4. Similarly, there exists an element $e\textrm'$ that satisfies for every $b$ the condition
+and $bc$ can mean any element in $P$ according to 4. Similarly, there exists an element $e\text{'}$ that satisfies for every $b$ the condition
 
 $$
 be' = b
 $$
 
-This element $e\textrm'$ is not different from $e$; because if we set $b = e\textrm'$ in (1) and $b = e$ in (2), it follows
+This element $e\text{'}$ is not different from $e$; because if we set $b = e\text{'}$ in (1) and $b = e$ in (2), it follows
 
 $$
 ee' = e, \quad ee' = e'
@@ -147,7 +147,7 @@ $$
 a', b', c', d' \ldots
 $$
 
-correspond to each other mutually and uniquely in such a way that whenever $ab = c$ is true, also $a\textrm'b\textrm' = c\textrm'$ holds, then the groups are called isomorphic, and the evident theorem holds that two groups isomorphic to a third group are isomorphic to each other. Accordingly, one can combine all mutually isomorphic groups into one class of groups, which itself is again a group whose elements are the generic concepts that one obtains when combining the corresponding elements of the individual isomorphic groups into a general concept. The individual mutually isomorphic groups are then to be understood as different representatives of a generic concept.
+correspond to each other mutually and uniquely in such a way that whenever $ab = c$ is true, also $a\text{'}b\text{'} = c\text{'}$ holds, then the groups are called isomorphic, and the evident theorem holds that two groups isomorphic to a third group are isomorphic to each other. Accordingly, one can combine all mutually isomorphic groups into one class of groups, which itself is again a group whose elements are the generic concepts that one obtains when combining the corresponding elements of the individual isomorphic groups into a general concept. The individual mutually isomorphic groups are then to be understood as different representatives of a generic concept.
 
 The properties of groups that can come into consideration are of different kinds. They can either adhere to particular groups and be derived from the nature of the elements from which the group is composed, or also from the nature of the composition law. Or they can adhere to the groups as such and must then be derivable solely from the definition of the group concept. The latter properties are common to all isomorphic groups and can be designated as invariant properties of the group. If a comparison is permitted, one could be reminded of the difference between metric and projective properties in geometry.
 
@@ -236,7 +236,7 @@ would have to hold, thus $a_1ba_2 = a_3$, $b = a_1^{-1}a_3a_2^{-1}$ would have t
 
 The term coset is therefore only to be understood figuratively.
 
-Two divisors $Q$, $Q\textrm'$ of $P$ always have the element 1 in common. They can however also have other elements in common, and these common elements form a group, which we want to denote with $R$. Because if the elements $a$ and $b$ belong to both $Q$ and $Q\textrm'$, then due to the group character of $Q$ and $Q\textrm'$ the same holds for the composition $ab$; thus $R$ is a group. We call this common group the greatest common divisor of $Q$ and $Q\textrm'$ or also, with a geometric analogy, the intersection of $Q$ and $Q\textrm'$. Similarly, it follows that the elements that are common to any number of divisors of $P$ form a group, which we likewise denote as the greatest common divisor or the intersection of all these groups.
+Two divisors $Q$, $Q\text{'}$ of $P$ always have the element 1 in common. They can however also have other elements in common, and these common elements form a group, which we want to denote with $R$. Because if the elements $a$ and $b$ belong to both $Q$ and $Q\text{'}$, then due to the group character of $Q$ and $Q\text{'}$ the same holds for the composition $ab$; thus $R$ is a group. We call this common group the greatest common divisor of $Q$ and $Q\text{'}$ or also, with a geometric analogy, the intersection of $Q$ and $Q\text{'}$. Similarly, it follows that the elements that are common to any number of divisors of $P$ form a group, which we likewise denote as the greatest common divisor or the intersection of all these groups.
 
 In every group we can form divisors according to the following procedure.
 
@@ -254,13 +254,13 @@ $$
 a^µ = a^{µ+α}
 $$
 
-then it follows that $a^α = 1$ must be, and that $α$ is the smallest positive number that satisfies this condition. It is then, if $m = qα$ is any multiple of $α$, $a^m = 1$ and conversely: whenever $a^m = 1$, $m$ must be divisible by $α$; because otherwise one could set $m = qα + α\textrm'$, where $α\textrm'$ is positive and smaller than $α$, and it would be $a^{α\textrm'} = 1$, contrary to the assumption, that $α$ is the smallest positive exponent for which $a^α = 1$. It is always and only then
+then it follows that $a^α = 1$ must be, and that $α$ is the smallest positive number that satisfies this condition. It is then, if $m = qα$ is any multiple of $α$, $a^m = 1$ and conversely: whenever $a^m = 1$, $m$ must be divisible by $α$; because otherwise one could set $m = qα + α\text{'}$, where $α\text{'}$ is positive and smaller than $α$, and it would be $a^{α\text{'}} = 1$, contrary to the assumption, that $α$ is the smallest positive exponent for which $a^α = 1$. It is always and only then
 
 $$
 a^µ = a^{µ'}
 $$
 
-when $µ \equiv µ\textrm'$ (mod $α$), and herein the exponents can also be negative, where $a^{-r}$ means the $r$th power of the element $a^{-1}$ or the element opposite to $a^r$.
+when $µ \equiv µ\text{'}$ (mod $α$), and herein the exponents can also be negative, where $a^{-r}$ means the $r$th power of the element $a^{-1}$ or the element opposite to $a^r$.
 
 The sequence
 
@@ -329,7 +329,7 @@ If $a$ is any element in $N$, then $Na$ is identical with $N$, thus $Nab$ is als
 
 We mention also the following theorem, whose correctness follows immediately from the isomorphism of transformed groups:
 
-If $Q$ is a divisor of $P$, $R$ a divisor of $Q$, then if $Q\textrm'$ and $R\textrm'$ are transformed from $Q$ and $R$ by the same element of $P$, $R\textrm'$ is also a divisor of $Q\textrm'$, and if $R$ is a normal divisor of $Q$, then $R\textrm'$ is also a normal divisor of $Q\textrm'$.
+If $Q$ is a divisor of $P$, $R$ a divisor of $Q$, then if $Q\text{'}$ and $R\text{'}$ are transformed from $Q$ and $R$ by the same element of $P$, $R\text{'}$ is also a divisor of $Q\text{'}$, and if $R$ is a normal divisor of $Q$, then $R\text{'}$ is also a normal divisor of $Q\text{'}$.
 
 Composition of Parts
 
@@ -349,7 +349,7 @@ $$
 AA = A
 $$
 
-For this equation says nothing other than that when $a$ and $a\textrm'$ are contained in $A$, $aa\textrm'$ also belongs to $A$, thus that $A$ is a group.
+For this equation says nothing other than that when $a$ and $a\text{'}$ are contained in $A$, $aa\text{'}$ also belongs to $A$, thus that $A$ is a group.
 
 2. Through the two equations
 
@@ -438,11 +438,11 @@ The group of magnitudes $N_i$, whose existence is thus hereby proven, we call th
 
 We mention at the conclusion of these considerations another theorem about normal divisors.
 
-5. If $N$ is a divisor of $P$, $N\textrm'$ a divisor of $N$ and simultaneously a normal divisor of $P$, then $N\textrm'$ is also a normal divisor of $N$.
+5. If $N$ is a divisor of $P$, $N\text{'}$ a divisor of $N$ and simultaneously a normal divisor of $P$, then $N\text{'}$ is also a normal divisor of $N$.
 
-This is self\-evident, because for every element $b$ of $P$, $b^{-1}N\textrm'b = N\textrm'$ is true, and because every element of $N$ is also an element of $P$.
+This is self\-evident, because for every element $b$ of $P$, $b^{-1}N\text{'}b = N\text{'}$ is true, and because every element of $N$ is also an element of $P$.
 
-However, one must not conclude conversely that, when $N$ is a normal divisor of $P$, $N\textrm'$ a normal divisor of $N$, $N\textrm'$ must also be a normal divisor of $P$.
+However, one must not conclude conversely that, when $N$ is a normal divisor of $P$, $N\text{'}$ a normal divisor of $N$, $N\text{'}$ must also be a normal divisor of $P$.
 
 Multi\-stage Isomorphism
 
@@ -464,7 +464,7 @@ It lets itself first prove that to each of the elements $A$, $B$, $C \ldots$ an 
 
 We see thus that there is no other multi\-stage isomorphism than that between the complementary group of a normal divisor and the total group. One could however expand the concept of isomorphism further such that one calls two groups that are $\mu$- and $v$\-stage isomorphic to a third group, $\mu$-$v$\-stage isomorphic to each other. By far the most important is the one\-stage isomorphism, which we therefore denote simply as isomorphism, while a multi\-stage isomorphism should always be made recognizable through an addition.
 
-Composition Series and Jordan\textrm's Theorem
+Composition Series and Jordan\text{'}s Theorem
 
 A group $P$ is called simple when it has no normal divisor besides itself and unity; composite, when other normal divisors are present.
 
@@ -484,7 +484,7 @@ The greatest normal divisors $P_1$, $P_2$, $P_3 \ldots$ can for a given group $P
 
 But the following beautiful and important theorem by C. Jordan holds:
 
-1. However a group P\textrm's composition series may be chosen, the index series is always the same, disregarding the arrangement.
+1. However a group P\text{'}s composition series may be chosen, the index series is always the same, disregarding the arrangement.
 
 The proof rests on the consideration of complementary groups introduced in the previous paragraph.
 
@@ -606,7 +606,7 @@ From Theorems 1. and 2. follows the corollary:
 
 3. A normal divisor Q of P is a greatest normal divisor if and only if the complementary group P/Q is simple.
 
-When Q and Q\textrm' are two normal divisors of P, then the symbolic product QQ\textrm' is also a normal divisor.
+When Q and Q\text{'} are two normal divisors of P, then the symbolic product QQ\text{'} is also a normal divisor.
 
 Because it is, since Q is a normal divisor
 
@@ -620,7 +620,7 @@ $$
 QQ'QQ' = QQQ'Q' = QQ'
 $$
 
-and this is according to §4, 1. the characteristic that QQ\textrm' is a group. That it is a normal divisor of P follows then according to §4, 2. from
+and this is according to §4, 1. the characteristic that QQ\text{'} is a group. That it is a normal divisor of P follows then according to §4, 2. from
 
 $$
 QQ'B = QB Q' = BQQ'
@@ -628,7 +628,7 @@ $$
 
 when B is any part of P.
 
-If now Q is a greatest normal divisor of P, and Q\textrm' different from Q, then QQ\textrm' is a normal divisor of P, that contains both Q and Q\textrm' and is thus different from Q. Consequently, since there exists no normal divisor of P besides P itself,
+If now Q is a greatest normal divisor of P, and Q\text{'} different from Q, then QQ\text{'} is a normal divisor of P, that contains both Q and Q\text{'} and is thus different from Q. Consequently, since there exists no normal divisor of P besides P itself,
 
 $$
 QQ' = P
@@ -639,7 +639,7 @@ and similarly must also
 $$
 Q'Q = P
 $$
-be true. These theorems hold when just one of the two groups Q, Q\textrm' is a greatest normal divisor of P. We now assume that they both have this property, and understand by R the greatest common divisor of Q and Q\textrm'. This group R is then a normal divisor of P as well as of Q and Q\textrm'. Because if a is any element in P, and e in Q as well as in Q\textrm', then $a^{-1}ea$ is in Q and in Q\textrm', thus also contained in R. Thus a⁻¹Ra = R, and R is a normal divisor of P and therefore a normal divisor of Q and of Q\textrm' (§4, 5.). To decompose Q into cosets of R, we choose a suitable system of elements 1, b_1, b_2, b_3 ... in Q, so that R, Rb_1, Rb_2, Rb_3 ... all become different from each other and set
+be true. These theorems hold when just one of the two groups Q, Q\text{'} is a greatest normal divisor of P. We now assume that they both have this property, and understand by R the greatest common divisor of Q and Q\text{'}. This group R is then a normal divisor of P as well as of Q and Q\text{'}. Because if a is any element in P, and e in Q as well as in Q\text{'}, then $a^{-1}ea$ is in Q and in Q\text{'}, thus also contained in R. Thus a⁻¹Ra = R, and R is a normal divisor of P and therefore a normal divisor of Q and of Q\text{'} (§4, 5.). To decompose Q into cosets of R, we choose a suitable system of elements 1, b_1, b_2, b_3 ... in Q, so that R, Rb_1, Rb_2, Rb_3 ... all become different from each other and set
 
 $$
 Q = R + Rb_1 + Rb_2 + Rb_3 + ...
@@ -657,7 +657,7 @@ $$
 Q = RB
 $$
 
-Now according to (13) Q\textrm'Q = P, thus also
+Now according to (13) Q\text{'}Q = P, thus also
 
 $$
 P = Q'RB = Q'B
@@ -681,7 +681,7 @@ $$
 Q'b_2 = Q'b_1
 $$
 
-it would follow, since Q\textrm' contains the unity, that there exists an element e in Q\textrm' such that
+it would follow, since Q\text{'} contains the unity, that there exists an element e in Q\text{'} such that
 
 $$
 b_2 = eb_1
@@ -689,7 +689,7 @@ $$
 
 would be true. This element e is however equal to b_2b_1⁻¹, and thus, since the b are contained in Q, likewise in Q and thus also in R contained. But then Rb_2 = Rb_1 would also be true, which contradicts the assumption.
 
-From this we can form the elements of the group complementary to R with respect to Q and of the group complementary to Q\textrm' with respect to P. We obtain these two groups
+From this we can form the elements of the group complementary to R with respect to Q and of the group complementary to Q\text{'} with respect to P. We obtain these two groups
 
 $$
 Q/R = R, Rb_1, Rb_2, Rb_3 ...
@@ -711,11 +711,11 @@ $$
 Q'b_1Q'b_2 = Q'b_1b_2
 $$
 
-Similarly, one can also conclude that the two groups Q\textrm'/R, P/Q are isomorphic.
+Similarly, one can also conclude that the two groups Q\text{'}/R, P/Q are isomorphic.
 
-The groups P/Q and P/Q\textrm' are, since Q, Q\textrm' are greatest normal divisors, according to 3) simple, and consequently the isomorphic groups Q\textrm'/R and Q/R are also simple, and thus we have the theorem:
+The groups P/Q and P/Q\text{'} are, since Q, Q\text{'} are greatest normal divisors, according to 3) simple, and consequently the isomorphic groups Q\text{'}/R and Q/R are also simple, and thus we have the theorem:
 
-4. If Q and Q\textrm' are two different greatest normal divisors of P and R is the intersection of Q and Q\textrm', then R is a greatest normal divisor of both Q and Q\textrm', and the index of R with respect to Q equals the index of Q\textrm' with respect to P.
+4. If Q and Q\text{'} are two different greatest normal divisors of P and R is the intersection of Q and Q\text{'}, then R is a greatest normal divisor of both Q and Q\text{'}, and the index of R with respect to Q equals the index of Q\text{'} with respect to P.
 
 With this we have gained the foundation to very simply prove the theorem about the constancy of the index series.
 
@@ -739,7 +739,7 @@ $$
 v', v'_1, v'_2, v'_3 ...
 $$
 
-Let now R be the intersection of Q and Q\textrm', and μ and μ\textrm' be the indices of R with respect to Q and Q\textrm'. Due to the isomorphism of the groups P/Q and Q\textrm'/R, we have μ\textrm' = v, and for the corresponding reason μ = v\textrm'. We form a composition series of R with its corresponding index series
+Let now R be the intersection of Q and Q\text{'}, and μ and μ\text{'} be the indices of R with respect to Q and Q\text{'}. Due to the isomorphism of the groups P/Q and Q\text{'}/R, we have μ\text{'} = v, and for the corresponding reason μ = v\text{'}. We form a composition series of R with its corresponding index series
 
 $$
 R, R_1, R_2, R_3 ...
@@ -749,7 +749,7 @@ $$
 μ_1, μ_2, μ_3 ...
 $$
 
-and since R is now a greatest normal divisor of Q and of Q\textrm', we can form from this two new composition series of P, namely
+and since R is now a greatest normal divisor of Q and of Q\text{'}, we can form from this two new composition series of P, namely
 
 $$
 P, Q, R, R_1, R_2, R_3 ...
@@ -779,7 +779,7 @@ $$
 v'_1, v'_2, v'_3, v'_4 ...
 $$
 
-agree, disregarding the arrangement. Similarly, the index series of Q\textrm'
+agree, disregarding the arrangement. Similarly, the index series of Q\text{'}
 
 $$
 v, μ_1, μ_2, μ_3 ...
@@ -799,7 +799,7 @@ $$
 v', v'_1, v'_2, v'_3, v'_4 ...
 $$
 
-with each other, since the first agrees with v, v\textrm', μ_1, μ_2, μ_3 ..., the second with v\textrm', v, μ_1, μ_2, μ_3 ... .
+with each other, since the first agrees with v, v\text{'}, μ_1, μ_2, μ_3 ..., the second with v\text{'}, v, μ_1, μ_2, μ_3 ... .
 
 For groups of order 2, which have only the one normal divisor 1, the theorem is evident, and thus it is proven generally through complete induction.
 
@@ -821,7 +821,7 @@ $$
 j'_1, j'_2, j'_3 ... j'_{s-1}, j'_s
 $$
 
-a common member $P_r = P\textrm'_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P\textrm'_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r+1}, j_{r+2} ... j_u$ and $j\textrm'_{r+1},j\textrm'_{r+2} ... j\textrm'_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
+a common member $P_r = P\text{'}_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P\text{'}_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r+1}, j_{r+2} ... j_u$ and $j\text{'}_{r+1},j\text{'}_{r+2} ... j\text{'}_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
 
 $$
 j_1, j_2 ... j_r \text{ and } j'_1, j'_2 ... j'_r
@@ -847,9 +847,9 @@ $$
 
 The greatest common divisor $R$ of all these groups is again a normal divisor of $P$.
 
-Now all the groups (1) are greatest normal divisors of $Q$, as follows from the final theorem of §3, since $Q_1, Q\textrm'_1$ are isomorphic with $a^{-1} Q a, a^{-1} Q_1 a$, while $Q$ as a normal divisor of $P$ with $a^{-1} Q a$ is identical. We can therefore allow each of the groups (1) with the same index $v$ to follow in the composition series for $Q$.
+Now all the groups (1) are greatest normal divisors of $Q$, as follows from the final theorem of §3, since $Q_1, Q\text{'}_1$ are isomorphic with $a^{-1} Q a, a^{-1} Q_1 a$, while $Q$ as a normal divisor of $P$ with $a^{-1} Q a$ is identical. We can therefore allow each of the groups (1) with the same index $v$ to follow in the composition series for $Q$.
 
-If now $Q_2$ is the greatest common divisor of $Q_1, Q\textrm'_1$ (thus $Q_1$ different), then according to §6, 4., $Q_2$ is a greatest normal divisor of $Q_1$ and $Q\textrm'_1$, whose index is likewise $v$. Thus we can continue the composition series of $Q$ in both of the following ways:
+If now $Q_2$ is the greatest common divisor of $Q_1, Q\text{'}_1$ (thus $Q_1$ different), then according to §6, 4., $Q_2$ is a greatest normal divisor of $Q_1$ and $Q\text{'}_1$, whose index is likewise $v$. Thus we can continue the composition series of $Q$ in both of the following ways:
 
 $$
 Q, Q_1, Q_2, \quad Q\; Q'_1\; Q_2\\
@@ -858,16 +858,16 @@ $$
 
 We now want to generalize the law expressed here and prove it by complete induction.
 
-When $Q_2$ is not yet equal to $R$, we add to $Q_1, Q\textrm'_1$ a third group $Q\textrm'\textrm'_1$ from the series (1) so that the intersection $Q_3$ of $Q_2, Q\textrm'_1, Q\textrm'\textrm'_1$ becomes a proper divisor of $Q_2$, and continue in this way until we reach the greatest common divisor $R$ of all groups (1).
+When $Q_2$ is not yet equal to $R$, we add to $Q_1, Q\text{'}_1$ a third group $Q\text{'}\text{'}_1$ from the series (1) so that the intersection $Q_3$ of $Q_2, Q\text{'}_1, Q\text{'}\text{'}_1$ becomes a proper divisor of $Q_2$, and continue in this way until we reach the greatest common divisor $R$ of all groups (1).
 
 Let therefore:
 
-$Q_2$ be the intersection of $Q_1, Q\textrm'_1$
-$Q_3$ be the intersection of $Q_1, Q\textrm'_1, Q\textrm'\textrm'_1$
+$Q_2$ be the intersection of $Q_1, Q\text{'}_1$
+$Q_3$ be the intersection of $Q_1, Q\text{'}_1, Q\text{'}\text{'}_1$
 $\ldots$
-$Q_r$ be the intersection of $Q_1, Q\textrm'_1, Q\textrm'\textrm'_1 \ldots Q_1^{(r-1)}$
+$Q_r$ be the intersection of $Q_1, Q\text{'}_1, Q\text{'}\text{'}_1 \ldots Q_1^{(r-1)}$
 
-and the arrangement of the groups $Q_1, Q\textrm'_1 \ldots Q_1^{(r-1)}$ be chosen such that of the groups $Q_1, Q_2 \ldots Q_r$ each is a proper divisor of the preceding one. This arrangement can be continued as long as $Q_r$ is not equal to $R$.
+and the arrangement of the groups $Q_1, Q\text{'}_1 \ldots Q_1^{(r-1)}$ be chosen such that of the groups $Q_1, Q_2 \ldots Q_r$ each is a proper divisor of the preceding one. This arrangement can be continued as long as $Q_r$ is not equal to $R$.
 
 We want to prove that we can choose the composition series of $P$ such that 
 $$
@@ -877,14 +877,14 @@ therein occurs, and that the indices in this part of the series are all equal to
 
 The claim is correct for $r = 2$, and we prove it generally by complete induction, under the assumption that it has already been proven for $r$.
 
-If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r+1}$ is the intersection of $Q_1, Q\textrm'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q\textrm'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q\textrm'_r$. Then $Q\textrm'_r$ is different from $Q_r$, and $Q_{r+1}$ is the intersection of $Q_r$ and $Q\textrm'_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
+If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r+1}$ is the intersection of $Q_1, Q\text{'}_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q\text{'}_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q\text{'}_r$. Then $Q\text{'}_r$ is different from $Q_r$, and $Q_{r+1}$ is the intersection of $Q_r$ and $Q\text{'}_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
 
 $$
 Q, Q_1 \ldots Q_{r\-1} Q_r,\\
 Q, Q_1 \ldots Q_{r\-1} Q'_r;
 $$
 
-for the second of these series is formed exactly like the first according to prescription (3), only that $Q_1^{(r)}$ has taken the place of $Q_1^{(r-1)}$. According to theorem §6, 2., therefore $Q_{r+1}$ is a greatest normal divisor of both $Q_r$ and $Q\textrm'_r$, and both with index $v$, and thus follows what was to be proven, that the composition series can be continued as:
+for the second of these series is formed exactly like the first according to prescription (3), only that $Q_1^{(r)}$ has taken the place of $Q_1^{(r-1)}$. According to theorem §6, 2., therefore $Q_{r+1}$ is a greatest normal divisor of both $Q_r$ and $Q\text{'}_r$, and both with index $v$, and thus follows what was to be proven, that the composition series can be continued as:
 
 $$
 Q, Q_1 \ldots Q_{r-1}, Q_r, Q_{r+1},
@@ -971,7 +971,7 @@ $$
 which are all different from each other, form a group whose degree, if the degree of $P_r$ is denoted by $p_r$, equals $hp_r$. This group (5) is also a divisor of $P_{r-1}$ and consequently $hp_r$ must be a divisor of $p_{r-1} = j_r p_r$, and $h$ is a divisor of $j_r$. But since $j_r$ is a prime number, $h$ must equal $j_r$, and through (5) the whole group $P_{r-1}$ is exhausted:
 
 $$
-P_{r\-1} = P_r + \gamma P_r + \gamma^2 P_r + \cdots + \gamma^{j_r\-1} P_r
+P_{r-1} = P_r + \gamma P_r + \gamma^2 P_r + \cdots + \gamma^{j_r-1} P_r
 $$
 
 We now consider the system of transformed groups
@@ -998,9 +998,9 @@ $$
 R = (Q_r, Q'_r, Q''_r \ldots)
 $$
 
-which shall be defined as the smallest group that contains each of the groups (8) as a divisor, and which we can denote as the smallest common multiple of the groups $Q_r, Q\textrm'_r, Q\textrm'\textrm'_r \ldots$
+which shall be defined as the smallest group that contains each of the groups (8) as a divisor, and which we can denote as the smallest common multiple of the groups $Q_r, Q\text{'}_r, Q\text{'}\text{'}_r \ldots$
 
-That there exists one and only one such group $R$, and that every group that is divisible by all $Q_r, Q\textrm'_r, Q\textrm'\textrm'_r \ldots$ must also be divisible by $R$, is easy to see. For firstly there exist finite groups, e.g. the group $P_r$, that contain all groups (8) as divisors, and secondly, when two groups $R$, $R\textrm'$ contain all these groups, the same applies to their intersection $R$ and $R\textrm'$. If therefore $R\textrm'$ is of possibly lowest degree, this intersection must be identical with $R$, and $R$ is thus a divisor of $R\textrm'$. If $R\textrm'$ is also of possibly lowest degree, then $R\textrm'$ is not different from $R$.
+That there exists one and only one such group $R$, and that every group that is divisible by all $Q_r, Q\text{'}_r, Q\text{'}\text{'}_r \ldots$ must also be divisible by $R$, is easy to see. For firstly there exist finite groups, e.g. the group $P_r$, that contain all groups (8) as divisors, and secondly, when two groups $R$, $R\text{'}$ contain all these groups, the same applies to their intersection $R$ and $R\text{'}$. If therefore $R\text{'}$ is of possibly lowest degree, this intersection must be identical with $R$, and $R$ is thus a divisor of $R\text{'}$. If $R\text{'}$ is also of possibly lowest degree, then $R\text{'}$ is not different from $R$.
 
 For this group $R$ we now prove:
 a) that it is a normal divisor of $P_{r-1}$,
@@ -1036,23 +1036,23 @@ i.e. $R$ is a normal divisor of $P_{r-1}$.
 
 However, to prove that $R$ is a commutative group, we must first present two auxiliary considerations.
 
-1) It is to be proven that any two of the groups $Q_r, Q\textrm'_r, Q\textrm'\textrm'_r \ldots$ have no common divisor besides the unit group.
+1) It is to be proven that any two of the groups $Q_r, Q\text{'}_r, Q\text{'}\text{'}_r \ldots$ have no common divisor besides the unit group.
 
-We need only prove for this that $Q_r, Q\textrm'_r$ have this property. For if we have
+We need only prove for this that $Q_r, Q\text{'}_r$ have this property. For if we have
 
 $$
 Q'_r = \gamma'^{-1} Q_r \gamma', \quad Q''_r = \gamma''^{-1} Q_r \gamma''
 $$
 
-with greatest common divisor $T$, then $Q_r$ and $Q\textrm'\textrm'_r = \gamma\textrm' Q\textrm'_r \gamma\textrm'^{-1}$ have the greatest common divisor $\gamma\textrm' T \gamma\textrm'^{-1}$.
+with greatest common divisor $T$, then $Q_r$ and $Q\text{'}\text{'}_r = \gamma\text{'} Q\text{'}_r \gamma\text{'}^{-1}$ have the greatest common divisor $\gamma\text{'} T \gamma\text{'}^{-1}$.
 
-Let us therefore assume that $T$ is the greatest common divisor of $Q_r$ and $Q\textrm'_r$; then $T$ is certainly a commutative group, since $Q_r$, $Q\textrm'_r$ are such. $T$ is also a normal divisor of $P_r$. For $Q_r$ and $Q\textrm'_r$ are such divisors; and if therefore $\pi$ is an element from $T$ and $\tau$ an element from $P_r$, then $\tau^{-1}\pi\tau$ is contained in both $Q_r$ and $Q\textrm'_r$, thus also in $T$. Consequently $\tau^{-1} T \tau = T$.
+Let us therefore assume that $T$ is the greatest common divisor of $Q_r$ and $Q\text{'}_r$; then $T$ is certainly a commutative group, since $Q_r$, $Q\text{'}_r$ are such. $T$ is also a normal divisor of $P_r$. For $Q_r$ and $Q\text{'}_r$ are such divisors; and if therefore $\pi$ is an element from $T$ and $\tau$ an element from $P_r$, then $\tau^{-1}\pi\tau$ is contained in both $Q_r$ and $Q\text{'}_r$, thus also in $T$. Consequently $\tau^{-1} T \tau = T$.
 
-Now we have however assumed that $Q_r$ is a commutative normal divisor of $P_r$ above the unit of possibly lowest degree; furthermore $Q_r$ and $Q\textrm'_r$ were different from each other. Thus $T$ can only be the unit group itself, q.e.d.
+Now we have however assumed that $Q_r$ is a commutative normal divisor of $P_r$ above the unit of possibly lowest degree; furthermore $Q_r$ and $Q\text{'}_r$ were different from each other. Thus $T$ can only be the unit group itself, q.e.d.
 
-2) To form the group $R$, we can proceed by taking the elements from $Q_r, Q\textrm'_r, Q\textrm'\textrm'_r \ldots$ in any order and composing them with each other repeatedly as long as new elements arise. For all compositions formed thus make up a group $C$ that is contained in $R$ because it contains the individual elements of $Q_r, Q\textrm'_r, Q\textrm'\textrm'_r \ldots$ On the other hand, the groups $Q_r, Q\textrm'_r, Q\textrm'\textrm'_r \ldots$ are also contained in $C$, and consequently $R$ is contained in $C$ and $C$ is identical with $R$.
+2) To form the group $R$, we can proceed by taking the elements from $Q_r, Q\text{'}_r, Q\text{'}\text{'}_r \ldots$ in any order and composing them with each other repeatedly as long as new elements arise. For all compositions formed thus make up a group $C$ that is contained in $R$ because it contains the individual elements of $Q_r, Q\text{'}_r, Q\text{'}\text{'}_r \ldots$ On the other hand, the groups $Q_r, Q\text{'}_r, Q\text{'}\text{'}_r \ldots$ are also contained in $C$, and consequently $R$ is contained in $C$ and $C$ is identical with $R$.
 
-To therefore prove finally that $R$ is a commutative group, it remains only to show us that if $\alpha, \beta$ are any two elements from $Q_r, Q\textrm'_r, Q\textrm'\textrm'_r \ldots$, the interchangeability
+To therefore prove finally that $R$ is a commutative group, it remains only to show us that if $\alpha, \beta$ are any two elements from $Q_r, Q\text{'}_r, Q\text{'}\text{'}_r \ldots$, the interchangeability
 
 $$
 \alpha \beta = \beta \alpha
@@ -1060,9 +1060,9 @@ $$
 
 exists.
 
-If now $\alpha, \beta$ both belong to the same group $Q_r$, then (10) follows from our assumption that $Q_r$ is commutative; and likewise if both occur in one of the other groups $Q\textrm'_r, Q\textrm'\textrm'_r \ldots$
+If now $\alpha, \beta$ both belong to the same group $Q_r$, then (10) follows from our assumption that $Q_r$ is commutative; and likewise if both occur in one of the other groups $Q\text{'}_r, Q\text{'}\text{'}_r \ldots$
 
-But if $\alpha$ and $\beta$ are contained in two different groups, say in $Q_r$ and $Q\textrm'_r$, then we conclude as follows: Because $\beta$ is contained in $P_r$ and $Q_r$ is a normal divisor of $P_r$, therefore also
+But if $\alpha$ and $\beta$ are contained in two different groups, say in $Q_r$ and $Q\text{'}_r$, then we conclude as follows: Because $\beta$ is contained in $P_r$ and $Q_r$ is a normal divisor of $P_r$, therefore also
 
 $$
 \beta^{-1} \alpha \beta = \alpha'
@@ -1074,13 +1074,13 @@ $$
 \beta \alpha' \beta^{-1} = \alpha'',
 $$
 
-and because $\alpha$ is contained in $P_r$ and $Q\textrm'_r$ is a normal divisor of $P_r$, $\alpha\textrm'\textrm'$ is also contained in $Q\textrm'_r$. But from (12) follows
+and because $\alpha$ is contained in $P_r$ and $Q\text{'}_r$ is a normal divisor of $P_r$, $\alpha\text{'}\text{'}$ is also contained in $Q\text{'}_r$. But from (12) follows
 
 $$
-\alpha' \alpha^{-1} = \beta^{-1} \alpha'' = \delta,
+\alpha\text{'} \alpha^{-1} = \beta^{-1} \alpha\text{'}\text{'} = \delta,
 $$
 
-and consequently the element $\delta$ is contained in both $Q_r$ and $Q\textrm'_r$. According to what was proven under 1), it can therefore only be the unit element, i.e.
+and consequently the element $\delta$ is contained in both $Q_r$ and $Q\text{'}_r$. According to what was proven under 1), it can therefore only be the unit element, i.e.
 
 $$
 \alpha' = \alpha, \quad \alpha'' = \beta,
