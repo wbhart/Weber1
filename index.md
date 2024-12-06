@@ -352,12 +352,10 @@ $$
 For this equation says nothing other than that when $a$ and $a'$ are contained in $A$, $aa'$ also belongs to $A$, thus that $A$ is a group.
 
 2. Through the two equations
-
 $$
 AA = A,
 AB = BA
 $$
-
 where $A$ is a specific part, $B$ can be any part of $P$, it is stated that $A$ is a normal divisor of $P$.
 
 For according to (2), $A$ is a divisor of $P$ and according to (3) for each element $b$ of $P$
@@ -367,11 +365,9 @@ $$
 i.e., $A$ is a normal divisor.
 
 3. If $A$ and $B$ are two divisors of $P$ (groups), then one of the two equations
-
 $$
 AB = A, BA = A
 $$
-
 is the necessary and sufficient condition for $B$ to be a divisor of $A$.
 
 For if $B$ is a group and a divisor of group $A$, and if $a$ is in $A$, $b$ in $B$ and thus also in $A$ contained, then $ab$ is also contained in $A$. $A$ thus contains every element of $AB$.
@@ -381,11 +377,9 @@ If, however, secondly $B$ as a group also contains the element 1, then $AB$ also
 Similarly, one sees that $BA$ is identical with $A$. Conversely, it follows from each of equations (4), since $A$ as a group contains the unit element, that every element of $B$ is contained in $A$, thus $B$ is a divisor of $A$.
 
 4. In the composition of parts, the system of cosets to a normal divisor of $P$ itself forms a group, in which the normal divisor $N$ forms the unit element, and
-
 $$
 Nb, Nb^{-1}
 $$
-
 are inverse elements.
 
 For if $N$ is a normal divisor of $P$ and
@@ -696,7 +690,6 @@ From this we can form the elements of the group complementary to $R$ with respec
 $$
 Q/R = R, Rb_1, Rb_2, Rb_3 \ldots
 $$
-
 $$
 P/Q' = Q', Q'b_1, Q'b_2, Q'b_3 \ldots
 $$
@@ -728,7 +721,6 @@ Accordingly, any two given composition series of $P$ with their corresponding in
 $$
 P, Q, Q_1, Q_2, Q_3 \ldots
 $$
-
 $$
 v, v_1, v_2, v_3 \ldots
 $$
@@ -736,7 +728,6 @@ $$
 $$
 P, Q', Q'_1, Q'_2, Q'_3 \ldots
 $$
-
 $$
 v', v'_1, v'_2, v'_3 \ldots
 $$
@@ -746,7 +737,6 @@ Let now $R$ be the intersection of $Q$ and $Q'$, and $\mu$ and $\mu'$ be the ind
 $$
 R, R_1, R_2, R_3 \ldots
 $$
-
 $$
 \mu_1, \mu_2, \mu_3 \ldots
 $$
@@ -756,7 +746,6 @@ and since $R$ is now a greatest normal divisor of $Q$ and of $Q'$, we can form f
 $$
 P, Q, R, R_1, R_2, R_3 \ldots
 $$
-
 $$
 v, v', \mu_1, \mu_2, \mu_3 \ldots
 $$
@@ -764,7 +753,6 @@ $$
 $$
 P, Q', R, R_1, R_2, R_3 \ldots
 $$
-
 $$
 v', v, \mu_1, \mu_2, \mu_3 \ldots
 $$
@@ -776,7 +764,6 @@ If we now assume that the theorem to be proven has already been proven correct f
 $$
 v_1, \mu_1, \mu_2, \mu_3 \ldots
 $$
-
 $$
 v'_1, v'_2, v'_3, v'₄ \ldots
 $$
@@ -786,7 +773,6 @@ agree, disregarding the arrangement. Similarly, the index series of $Q'$
 $$
 v, \mu_1, \mu_2, \mu_3 \ldots
 $$
-
 $$
 v_1, v'_2, v'_3, v'₄ \ldots
 $$
@@ -796,7 +782,6 @@ agree. Thus the two index series of $P$ also agree
 $$
 v, v_1, v_2, v_3, v₄ \ldots
 $$
-
 $$
 v', v'_1, v'_2, v'_3, v'₄ \ldots
 $$
@@ -810,7 +795,6 @@ If in two composition series of $P$, which we now want to represent with their i
 $$
 P, P_1, P_2, P_3 \ldots P_{u-1}, 1
 $$
-
 $$
 j_1, j_2, j_3 \ldots j_{u-1}, j_u
 $$
@@ -818,12 +802,11 @@ $$
 $$
 P, P'_1, P'_2, P'_3 \ldots P'_{s-1}, 1
 $$
-
 $$
 j'_1, j'_2, j'_3 \ldots j'_{s-1}, j'_s
 $$
 
-a common member $P_r = P'_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P'_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r\+1}, j_{r\+2} \ldots j_u$ and $j'_{r\+1}, j'_{r\+2} \ldots j'_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
+a common member $P_r = P'_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P'_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r+1}, j_{r+2} \ldots j_u$ and $j'_{r+1}, j'_{r+2} \ldots j'_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
 
 $$
 j_1, j_2 \ldots j_r \text{ and } j'_1, j'_2 \ldots j'_r
@@ -880,14 +863,14 @@ therein occurs, and that the indices in this part of the series are all equal to
 
 The claim is correct for $r = 2$, and we prove it generally by complete induction, under the assumption that it has already been proven for $r$.
 
-If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r\+1}$ is the intersection of $Q_1, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q'_r$. Then $Q'_r$ is different from $Q_r$, and $Q_{r\+1}$ is the intersection of $Q_r$ and $Q'_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
+If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r+1}$ is the intersection of $Q_1, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q'_r$. Then $Q'_r$ is different from $Q_r$, and $Q_{r+1}$ is the intersection of $Q_r$ and $Q'_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
 
 $$
 Q, Q_1 \ldots Q_{r-1} Q_r,\\
 Q, Q_1 \ldots Q_{r-1} Q'_r;
 $$
 
-for the second of these series is formed exactly like the first according to prescription (3), only that $Q_1^{(r)}$ has taken the place of $Q_1^{(r-1)}$. According to theorem §6, 2., therefore $Q_{r\+1}$ is a greatest normal divisor of both $Q_r$ and $Q'_r$, and both with index $v$, and thus follows what was to be proven, that the composition series can be continued as:
+for the second of these series is formed exactly like the first according to prescription (3), only that $Q_1^{(r)}$ has taken the place of $Q_1^{(r-1)}$. According to theorem §6, 2., therefore $Q_{r+1}$ is a greatest normal divisor of both $Q_r$ and $Q'_r$, and both with index $v$, and thus follows what was to be proven, that the composition series can be continued as:
 
 $$
 Q, Q_1 \ldots Q_{r-1}, Q_r, Q_{r+1},
@@ -915,7 +898,7 @@ P, P_1, P_2, P_3 \ldots\\
 j_1, j_2, j_3 \ldots
 $$
 
-in such a way that whenever a change occurs in the index series, thus $j_{r\+1}$ is different from $j_r$, $P_r$ is a normal divisor of $P$.
+in such a way that whenever a change occurs in the index series, thus $j_{r+1}$ is different from $j_r$, $P_r$ is a normal divisor of $P$.
 
 §8.
 Metacyclic Groups.
