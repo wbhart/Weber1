@@ -44,7 +44,7 @@ i.e., if $a$, $b$, $c$ are any three elements from $P$, then:
 $$
 (ab)c = a(bc)
 $$
-and from this follows, by the method of complete induction, that one always arrives at the same result when, in any sequence of elements from $P$ of finite number, $a$, $b$, $c$, $d$ ..., one first composes two neighboring elements, then again two neighboring ones, and so on, until the whole sequence is reduced to one element, which is denoted by $abcd$ .... So for example:
+and from this follows, by the method of complete induction, that one always arrives at the same result when, in any sequence of elements from $P$ of finite number, $a$, $b$, $c$, $d$ $\ldots$, one first composes two neighboring elements, then again two neighboring ones, and so on, until the whole sequence is reduced to one element, which is denoted by $abcd$ \ldots. So for example:
 
 $$
 abcd = (ab)cd = [(ab)c]d = (ab)(cd) \\
@@ -163,7 +163,7 @@ $$
 P = 1, a_1, a_2 \ldots a_{n-1}
 $$
 
-is a group of order $n$ with elements $a_0 = 1$, $a_1$, $a_2$ ... $a_{n-1}$ and
+is a group of order $n$ with elements $a_0 = 1$, $a_1$, $a_2$ \ldots $a_{n-1}$ and
 
 $$
 Q = 1, a_1, a_2 \ldots a_{v-1}
@@ -183,13 +183,13 @@ $$
 Q_2 = c, a_1c, a_2c \ldots a_{v-1}c
 $$
 
-and convince ourselves easily that the elements of $Q_2$ are all different not only from each other, but also from the elements of $Q$ and $Q_1$ are different. Because if, for example, $a_1c = a_2b$, it would follow that $c = a_1^{-1}a_2b$ would have to be; but $a_1^{-1}a_2$ is contained in $Q$, thus identical with one of the elements $1$, $a_1$, $a_2$ ... $a_{v-1}$, and thus $c$ would be against the assumption contained in $Q_1$. We continue in this way, forming the systems $Q$, $Q_1$, $Q_2$ ... $Q_{\mu-1}$, of which the last
+and convince ourselves easily that the elements of $Q_2$ are all different not only from each other, but also from the elements of $Q$ and $Q_1$ are different. Because if, for example, $a_1c = a_2b$, it would follow that $c = a_1^{-1}a_2b$ would have to be; but $a_1^{-1}a_2$ is contained in $Q$, thus identical with one of the elements $1$, $a_1$, $a_2$ \ldots $a_{v-1}$, and thus $c$ would be against the assumption contained in $Q_1$. We continue in this way, forming the systems $Q$, $Q_1$, $Q_2$ \ldots $Q_{\mu-1}$, of which the last
 
 $$
 Q_{\mu-1} = g, a_1g, a_2g \ldots a_{v-1}g
 $$
 
-may be. Then $P$ must be exhausted by the systems $Q$, $Q_1$, $Q_2$ ... $Q_{\mu-1}$, and it follows, since these systems contain all different elements,
+may be. Then $P$ must be exhausted by the systems $Q$, $Q_1$, $Q_2$ \ldots $Q_{\mu-1}$, and it follows, since these systems contain all different elements,
 
 $$
 n = v\mu
@@ -199,7 +199,7 @@ or the theorem:
 
 1. The order of a group is divisible by the order of each of its divisors. The quotient $\mu = n : v$ shall be called the index of the divisor $Q$.
 
-The systems $Q_1$, $Q_2$ ... $Q_{\mu-1}$ we call, as in the special case of permutation groups, the cosets belonging to $Q$ and denote them by
+The systems $Q_1$, $Q_2$ \ldots $Q_{\mu-1}$ we call, as in the special case of permutation groups, the cosets belonging to $Q$ and denote them by
 
 $$
 Q_1 = Qb, \quad Q_2 = Qc \ldots Q_{\mu-1} = Qg
@@ -211,7 +211,7 @@ $$
 P = Q + Qb + Qc + \cdots + Qg
 $$
 
-Sometimes we will also denote the whole system $Q$, $Q_1$ ... $Q_{\mu-1}$ ($Q$ itself included) as a system of cosets, and thus call the representation (1) the decomposition of $P$ into a system of cosets.
+Sometimes we will also denote the whole system $Q$, $Q_1$ \ldots $Q_{\mu-1}$ ($Q$ itself included) as a system of cosets, and thus call the representation (1) the decomposition of $P$ into a system of cosets.
 
 From the way the cosets are formed, it also follows that, if $b$, $c$ are any two elements from $P$, the two systems $Qb$ and $Qc$ are either completely identical or contain no common element. For if $a_1b = a_2c$, where $a_1$, $a_2$ are two elements from $Q$, then it is also true for every other element $a$ from $Q$:
 
@@ -251,16 +251,16 @@ $$
 which all belong to the group $P$, cannot contain all different elements. If thus the first element that recurs for the second time is
 
 $$
-a^µ = a^{µ+α}
+a^\mu = a^{\mu+α}
 $$
 
 then it follows that $a^α = 1$ must be, and that $α$ is the smallest positive number that satisfies this condition. It is then, if $m = qα$ is any multiple of $α$, $a^m = 1$ and conversely: whenever $a^m = 1$, $m$ must be divisible by $α$; because otherwise one could set $m = qα + α'$, where $α'$ is positive and smaller than $α$, and it would be $a^{α'} = 1$, contrary to the assumption, that $α$ is the smallest positive exponent for which $a^α = 1$. It is always and only then
 
 $$
-a^µ = a^{µ'}
+a^\mu = a^{\mu'}
 $$
 
-when $µ \equiv µ'$ (mod $α$), and herein the exponents can also be negative, where $a^{-r}$ means the $r$th power of the element $a^{-1}$ or the element opposite to $a^r$.
+when $\mu \equiv \mu'$ (mod $α$), and herein the exponents can also be negative, where $a^{-r}$ means the $r$th power of the element $a^{-1}$ or the element opposite to $a^r$.
 
 The sequence
 
@@ -474,7 +474,7 @@ P, P_1, P_2, P_3 \ldots 1,
 $$
 which necessarily ends with the group 1 formed from the unit element alone, is called a composition series of group $P$.
 
-We want to denote the degrees of groups (1) with $n$, $n_1$, $n_2$, $n_3 \ldots 1$, and the quotients $n : n_1$, $n_1 : n_2$, $n_2 : n_3 \ldots$, thus the indices of $P_1$ with respect to $P$, $P_2$ with respect to $P_1$ and so on with $v_1$, $v_2$, $v_3 \ldots$ The series of all these numbers
+We want to denote the degrees of groups (1) with $n$, $n_1$, $n_2$, $n_3 \ldots 1$, and the quotients $n \: n_1$, $n_1 \: n_2$, $n_2 \: n_3 \ldots$, thus the indices of $P_1$ with respect to $P$, $P_2$ with respect to $P_1$ and so on with $v_1$, $v_2$, $v_3 \ldots$ The series of all these numbers
 $$
 v_1, v_2, v_3 \ldots
 $$
@@ -488,110 +488,110 @@ But the following beautiful and important theorem by C. Jordan holds:
 
 The proof rests on the consideration of complementary groups introduced in the previous paragraph.
 
-Let Q and Q₁ be normal divisors of P and simultaneously Q₁ a divisor (thus according to §4, 5. a normal divisor) of Q.
+Let $Q$ and $Q_1$ be normal divisors of $P$ and simultaneously $Q_1$ a divisor (thus according to §4, 5. a normal divisor) of $Q$.
 
 Then the following theorem holds:
 
-1. The group Q/Q₁ is a normal divisor of the group P/Q₁, and the index of Q/Q₁ with respect to P/Q₁ equals the index of Q with respect to P.
+1. The group $Q/Q_1$ is a normal divisor of the group $P/Q_1$, and the index of $Q/Q_1$ with respect to $P/Q_1$ equals the index of $Q$ with respect to $P$.
 
 To recognize its correctness, one only needs to consider more precisely the formation method of the individual groups.
 
-Let n, q, q₁ be the orders of P, Q, Q₁ and
+Let $n$, $q$, $q_1$ be the orders of $P$, $Q$, $Q_1$ and
 
 $$
-n = v q, q = v₁ q₁, n = \mu q_1, \mu = v v₁
+n = v q, q = v_1 q_1, n = \mu q_1, \mu = v v_1
 $$
 
-One decomposes Q into cosets in that one sets, when $b₁, b₂ \ldots b_{v_1-1}$ are suitably chosen elements in Q,
+One decomposes $Q$ into cosets in that one sets, when $b_1, b_2 \ldots b_{v_1-1}$ are suitably chosen elements in $Q$,
 
 $$
-Q = Q₁ + Q₁b₁ + ... Q₁b_{v_1-1}
+Q = Q_1 + Q_1b_1 + \ldots Q_1b_{v_1-1}
 $$
 
-The elements of the group Q/Q₁ are
+The elements of the group $Q/Q_1$ are
 
 $$
-Q₁, Q₁b₁, ... Q₁b_{v_1-1}
+Q_1, Q_1b_1, \ldots Q_1b_{v_1-1}
 $$
 
-When we decompose P into cosets with respect to Q₁, certainly the elements (5) appear among them, and consequently Q/Q₁ is a divisor of P/Q₁.
+When we decompose $P$ into cosets with respect to $Q_1$, certainly the elements (5) appear among them, and consequently $Q/Q_1$ is a divisor of $P/Q_1$.
 
 It remains to be proven that this divisor is a normal divisor.
 
-Let us denote with a any element of P, then all elements of P/Q₁ are in the form Q₁a, and we thus only need to show that, when b is any element in Q, every element
+Let us denote with $a$ any element of $P$, then all elements of $P/Q_1$ are in the form $Q_1a$, and we thus only need to show that, when $b$ is any element in $Q$, every element
 
 $$
-Q₁ a^{-1}Q₁ b Q₁ a
+Q_1 a^{-1}Q_1 b Q_1 a
 $$
 
-in Q/Q₁, i.e. in the form Q₁b, is contained.
+in $Q/Q_1$, i.e. in the form $Q_1b$, is contained.
 
 This follows immediately from
 
 $$
-Q₁ a^{-1}Q₁ b Q₁ a = Q₁ a^{-1}b a
+Q_1 a^{-1}Q_1 b Q_1 a = Q_1 a^{-1}ba
 $$
 
-because along with b, a⁻¹ba also appears in Q (since Q is a normal divisor of P). And that the determination of indices is correct is shown by the counting. Because the orders of P/Q₁ and Q/Q₁ are vv₁ and v₁, thus the index v.
+because along with $b$, $a^{-1}ba$ also appears in $Q$ (since $Q$ is a normal divisor of $P$). And that the determination of indices is correct is shown by the counting. Because the orders of $P/Q_1$ and $Q/Q_1$ are $vv_1$ and $v_1$, thus the index $v$.
 
 Additionally, the following theorem holds:
 
-2. If Q₁ is a normal divisor of P of order q₁, and the group P/Q₁ itself has a divisor M of order m, then P has a divisor Q of order q = mq₁. Simultaneously, Q₁ is a normal divisor of Q and M = Q/Q₁. If M is a normal divisor of P/Q₁, then Q is also a normal divisor of P.
+2. If $Q_1$ is a normal divisor of $P$ of order $q_1$, and the group $P/Q_1$ itself has a divisor $M$ of order $m$, then $P$ has a divisor $Q$ of order $q = mq_1$. Simultaneously, $Q_1$ is a normal divisor of $Q$ and $M = Q/Q_1$. If $M$ is a normal divisor of $P/Q_1$, then $Q$ is also a normal divisor of $P$.
 
-Let μ be the index of Q₁ with respect to P, and let P be decomposed into cosets:
-
-$$
-P = Q₁ + Q₁e₁ + Q₁e₂ ... + Q₁e_{μ-1}
-$$
-
-so that e₁, e₂ ... e_{μ-1} are suitably chosen elements in P and
+Let $\mu$ be the index of $Q_1$ with respect to $P$, and let $P$ be decomposed into cosets:
 
 $$
-Q₁, Q₁e₁, Q₁e₂ ... Q₁e_{μ-1}
+P = Q_1 + Q_1e_1 + Q_1e_2 \ldots + Q_1e_{\mu-1}
 $$
 
-are the elements of P/Q₁. When now a divisor M is contained in the group P/Q₁, this must consist of a portion of the elements (9), perhaps of
+so that $e_1, e_2 \ldots e_{\mu-1}$ are suitably chosen elements in $P$ and
 
 $$
-Q₁, Q₁b₁, Q₁b₂ ... Q₁b_{n-1}
+Q_1, Q_1e_1, Q_1e_2 \ldots Q_1e_{\mu-1}
+$$
+
+are the elements of $P/Q_1$. When now a divisor $M$ is contained in the group $P/Q_1$, this must consist of a portion of the elements (9), perhaps of
+
+$$
+Q_1, Q_1b_1, Q_1b_2 \ldots Q_1b_{n-1}
 $$
 
 and when this system should form a group, then for any two elements $b_{h}, b_{k}$ the product
 
 $$
-Q₁b_{h}Q₁b_{k} = Q₁b_{h}b_{k}
+Q_1b_{h}Q_1b_{k} = Q_1b_{h}b_{k}
 $$
 
-must be contained again in (10), thus $= Q₁b_{n}$. When therefore the system 1, b₁, b₂ ... b_{n-1} is designated with B, then according to the method of composition of parts, the relation (11) can be written as:
+must be contained again in (10), thus $= Q_1b_{n}$. When therefore the system 1, $b_1, b_2 \ldots b_{n-1}$ is designated with $B$, then according to the method of composition of parts, the relation (11) can be written as:
 
 $$
-Q₁BQ₁B = Q₁B
+Q_1BQ_1B = Q_1B
 $$
 
 and thus it states according to §4, 1., that the elements contained in
 
 $$
-Q = Q₁B
+Q = Q_1B
 $$
 
-form a group of P that contains the group Q₁ as a divisor and is itself a divisor of P. That Q₁ is a normal divisor of Q follows from §4, 5., since Q₁ as normal divisor of P is presupposed, and from the representation (10) of group M it follows that M = Q/Q₁.
+form a group of $P$ that contains the group $Q_1$ as a divisor and is itself a divisor of $P$. That $Q_1$ is a normal divisor of $Q$ follows from §4, 5., since $Q_1$ as normal divisor of $P$ is presupposed, and from the representation (10) of group $M$ it follows that $M = Q/Q_1$.
 
-It remains to be shown that when M is a normal divisor of P/Q₁, then Q is also a normal divisor of P. This follows thus:
-If e is any element in P and $Q₁b_{k}$ an element in M, then from the assumption that M is a normal divisor of P/Q₁ follows:
+It remains to be shown that when $M$ is a normal divisor of $P/Q_1$, then $Q$ is also a normal divisor of $P$. This follows thus:
+If $e$ is any element in $P$ and $Q_1b_{k}$ an element in $M$, then from the assumption that $M$ is a normal divisor of $P/Q_1$ follows:
 $$
-Q₁e^{-1}Q₁b_{k}Q₁e = Q₁b_{h}
+Q_1e^{-1}Q_1b_{k}Q_1e = Q_1b_{h}
 $$
 
 which we can also express through the formula
 
 $$
-Q₁e^{-1}Q₁BQ₁e = Q₁B
+Q_1e^{-1}Q_1BQ_1e = Q_1B
 $$
 
-according to the composition of parts. Since now Q₁ is a normal divisor of P, Q₁ can be interchanged with each of the other factors, so that from (14) follows:
+according to the composition of parts. Since now $Q_1$ is a normal divisor of $P$, $Q_1$ can be interchanged with each of the other factors, so that from (14) follows:
 
 $$
-e^{-1}Q₁Be = Q₁B
+e^{-1}Q_1Be = Q_1B
 $$
 
 or
@@ -600,15 +600,15 @@ $$
 e^{-1}Qe = Q
 $$
 
-whereby it is expressed that Q is a normal divisor of P.
+whereby it is expressed that $Q$ is a normal divisor of $P$.
 
 From Theorems 1. and 2. follows the corollary:
 
-3. A normal divisor Q of P is a greatest normal divisor if and only if the complementary group P/Q is simple.
+3. A normal divisor $Q$ of $P$ is a greatest normal divisor if and only if the complementary group $P/Q$ is simple.
 
-When Q and Q' are two normal divisors of P, then the symbolic product QQ' is also a normal divisor.
+When $Q$ and $Q'$ are two normal divisors of $P$, then the symbolic product $QQ'$ is also a normal divisor.
 
-Because it is, since Q is a normal divisor
+Because it is, since $Q$ is a normal divisor
 
 $$
 QQ' = Q'Q
@@ -620,15 +620,17 @@ $$
 QQ'QQ' = QQQ'Q' = QQ'
 $$
 
-and this is according to §4, 1. the characteristic that QQ' is a group. That it is a normal divisor of P follows then according to §4, 2. from
+and this is according to §4, 1. the characteristic that $QQ'$ is a group.
+
+and this is according to §4, 2. from
 
 $$
 QQ'B = QB Q' = BQQ'
 $$
 
-when B is any part of P.
+when $B$ is any part of $P$.
 
-If now Q is a greatest normal divisor of P, and Q' different from Q, then QQ' is a normal divisor of P, that contains both Q and Q' and is thus different from Q. Consequently, since there exists no normal divisor of P besides P itself,
+If now $Q$ is a greatest normal divisor of $P$, and $Q'$ different from $Q$, then $QQ'$ is a normal divisor of $P$, that contains both $Q$ and $Q'$ and is thus different from $Q$. Consequently, since there exists no normal divisor of $P$ besides $P$ itself,
 
 $$
 QQ' = P
@@ -639,16 +641,16 @@ and similarly must also
 $$
 Q'Q = P
 $$
-be true. These theorems hold when just one of the two groups Q, Q' is a greatest normal divisor of P. We now assume that they both have this property, and understand by R the greatest common divisor of Q and Q'. This group R is then a normal divisor of P as well as of Q and Q'. Because if a is any element in P, and e in Q as well as in Q', then $a^{-1}ea$ is in Q and in Q', thus also contained in R. Thus a⁻¹Ra = R, and R is a normal divisor of P and therefore a normal divisor of Q and of Q' (§4, 5.). To decompose Q into cosets of R, we choose a suitable system of elements 1, b₁, b₂, b₃ ... in Q, so that R, Rb₁, Rb₂, Rb₃ ... all become different from each other and set
+be true. These theorems hold when just one of the two groups $Q$, $Q'$ is a greatest normal divisor of $P$. We now assume that they both have this property, and understand by $R$ the greatest common divisor of $Q$ and $Q'$. This group $R$ is then a normal divisor of $P$ as well as of $Q$ and $Q'$. Because if $a$ is any element in $P$, and $e$ in $Q$ as well as in $Q'$, then $a^{-1}ea$ is in $Q$ and in $Q'$, thus also contained in $R$. Thus $a^{-1}Ra = R$, and $R$ is a normal divisor of $P$ and therefore a normal divisor of $Q$ and of $Q'$. To decompose $Q$ into cosets of $R$, we choose a suitable system of elements $1, b_1, b_2, b_3 \ldots$ in $Q$, so that $R, Rb_1, Rb_2, Rb_3 \ldots$ all become different from each other and set
 
 $$
-Q = R + Rb₁ + Rb₂ + Rb₃ + ...
+Q = R + Rb_1 + Rb_2 + Rb_3 + \ldots
 $$
 
 which we can also, when we
 
 $$
-B = 1, b₁, b₂, b₃ ...
+B = 1, b_1, b_2, b_3 \ldots
 $$
 
 set, briefly denote with
@@ -657,7 +659,7 @@ $$
 Q = RB
 $$
 
-Now according to (13) Q'Q = P, thus also
+Now according to (13) $Q'Q = P$, thus also
 
 $$
 P = Q'RB = Q'B
@@ -666,165 +668,165 @@ $$
 or
 
 $$
-P = Q' + Q'b₁ + Q'b₂ + Q'b₃ ...
+P = Q' + Q'b_1 + Q'b_2 + Q'b_3 \ldots
 $$
 
 The cosets
 
 $$
-Q', Q'b₁, Q'b₂, Q'b₃ ...
+Q', Q'b_1, Q'b_2, Q'b_3 \ldots
 $$
 
 are however all different from each other. Because if perhaps
 
 $$
-Q'b₂ = Q'b₁
+Q'b_2 = Q'b_1
 $$
 
-it would follow, since Q' contains the unity, that there exists an element e in Q' such that
+it would follow, since $Q'$ contains the unity, that there exists an element $e$ in $Q'$ such that
 
 $$
-b₂ = eb₁
+b_2 = eb_1
 $$
 
-would be true. This element e is however equal to b₂b₁⁻¹, and thus, since the b are contained in Q, likewise in Q and thus also in R contained. But then Rb₂ = Rb₁ would also be true, which contradicts the assumption.
+would be true. This element $e$ is however equal to $b_2b_1^{-1}$, and thus, since the $b$ are contained in $Q$, likewise in $Q$ and thus also in $R$ contained. But then $Rb_2 = Rb_1$ would also be true, which contradicts the assumption.
 
-From this we can form the elements of the group complementary to R with respect to Q and of the group complementary to Q' with respect to P. We obtain these two groups
-
-$$
-Q/R = R, Rb₁, Rb₂, Rb₃ ...
-$$
+From this we can form the elements of the group complementary to $R$ with respect to $Q$ and of the group complementary to $Q'$ with respect to $P$. We obtain these two groups
 
 $$
-P/Q' = Q', Q'b₁, Q'b₂, Q'b₃ ...
+Q/R = R, Rb_1, Rb_2, Rb_3 \ldots
+$$
+
+$$
+P/Q' = Q', Q'b_1, Q'b_2, Q'b_3 \ldots
 $$
 
 From this one easily recognizes that these groups are not only of the same order, but that they are isomorphic. Because simultaneously
 
 $$
-Rb₁Rb₂ = Rb₁b₂
+Rb_1Rb_2 = Rb_1b_2
 $$
 
 and
 
 $$
-Q'b₁Q'b₂ = Q'b₁b₂
+Q'b_1Q'b_2 = Q'b_1b_2
 $$
 
-Similarly, one can also conclude that the two groups Q'/R, P/Q are isomorphic.
+Similarly, one can also conclude that the two groups $Q'/R, P/Q$ are isomorphic.
 
-The groups P/Q and P/Q' are, since Q, Q' are greatest normal divisors, according to 3) simple, and consequently the isomorphic groups Q'/R and Q/R are also simple, and thus we have the theorem:
+The groups $P/Q$ and $P/Q'$ are, since $Q$, $Q'$ are greatest normal divisors, according to 3) simple, and consequently the isomorphic groups $Q'/R$ and $Q/R$ are also simple, and thus we have the theorem:
 
-4. If Q and Q' are two different greatest normal divisors of P and R is the intersection of Q and Q', then R is a greatest normal divisor of both Q and Q', and the index of R with respect to Q equals the index of Q' with respect to P.
+4. If $Q$ and $Q'$ are two different greatest normal divisors of $P$ and $R$ is the intersection of $Q$ and $Q'$, then $R$ is a greatest normal divisor of both $Q$ and $Q'$, and the index of $R$ with respect to $Q$ equals the index of $Q'$ with respect to $P$.
 
 With this we have gained the foundation to very simply prove the theorem about the constancy of the index series.
 
 For better overview, we write the different composition series to be compared in such a way that we write the index of each member with respect to the preceding member under the member.
 
-Accordingly, any two given composition series of P with their corresponding indices may be the following:
+Accordingly, any two given composition series of $P$ with their corresponding indices may be the following:
 
 $$
-P, Q, Q₁, Q₂, Q₃ ...
-$$
-
-$$
-v, v₁, v₂, v₃ ...
+P, Q, Q_1, Q_2, Q_3 \ldots
 $$
 
 $$
-P, Q', Q'₁, Q'₂, Q'₃ ...
+v, v_1, v_2, v_3 \ldots
 $$
 
 $$
-v', v'₁, v'₂, v'₃ ...
-$$
-
-Let now R be the intersection of Q and Q', and μ and μ' be the indices of R with respect to Q and Q'. Due to the isomorphism of the groups P/Q and Q'/R, we have μ' = v, and for the corresponding reason μ = v'. We form a composition series of R with its corresponding index series
-
-$$
-R, R₁, R₂, R₃ ...
+P, Q', Q'_1, Q'_2, Q'_3 \ldots
 $$
 
 $$
-μ₁, μ₂, μ₃ ...
+v', v'_1, v'_2, v'_3 \ldots
 $$
 
-and since R is now a greatest normal divisor of Q and of Q', we can form from this two new composition series of P, namely
+Let now $R$ be the intersection of $Q$ and $Q'$, and $\mu$ and $\mu'$ be the indices of $R$ with respect to $Q$ and $Q'$. Due to the isomorphism of the groups $P/Q$ and $Q'/R$, we have $\mu' = v$, and for the corresponding reason $\mu = v'$. We form a composition series of $R$ with its corresponding index series
 
 $$
-P, Q, R, R₁, R₂, R₃ ...
-$$
-
-$$
-v, v', μ₁, μ₂, μ₃ ...
+R, R_1, R_2, R_3 \ldots
 $$
 
 $$
-P, Q', R, R₁, R₂, R₃ ...
+\mu_1, \mu_2, \mu_3 \ldots
+$$
+
+and since $R$ is now a greatest normal divisor of $Q$ and of $Q'$, we can form from this two new composition series of $P$, namely
+
+$$
+P, Q, R, R_1, R_2, R_3 \ldots
 $$
 
 $$
-v', v, μ₁, μ₂, μ₃ ...
-$$
-
-The two composition series (26) and (27) of P thus have the same index series.
-
-If we now assume that the theorem to be proven has already been proven correct for groups whose order ≦ ½n (where n denotes the order of P), then it follows that all index series of Q, whose order is indeed a proper divisor of n and thus at most = ½n, agree with each other, thus the series
-
-$$
-v₁, μ₁, μ₂, μ₃ ...
+v, v', \mu_1, \mu_2, \mu_3 \ldots
 $$
 
 $$
-v'₁, v'₂, v'₃, v'₄ ...
-$$
-
-agree, disregarding the arrangement. Similarly, the index series of Q'
-
-$$
-v, μ₁, μ₂, μ₃ ...
+P, Q', R, R_1, R_2, R_3 \ldots
 $$
 
 $$
-v₁, v'₂, v'₃, v'₄ ...
+v', v, \mu_1, \mu_2, \mu_3 \ldots
 $$
 
-agree. Thus the two index series of P also agree
+The two composition series (26) and (27) of $P$ thus have the same index series.
+
+If we now assume that the theorem to be proven has already been proven correct for groups whose order $\leq \frac{1}{2}n$ (where $n$ denotes the order of $P$), then it follows that all index series of $Q$, whose order is indeed a proper divisor of $n$ and thus at most $= \frac{1}{2}n$, agree with each other, thus the series
 
 $$
-v, v₁, v₂, v₃, v₄ ...
+v_1, \mu_1, \mu_2, \mu_3 \ldots
 $$
 
 $$
-v', v'₁, v'₂, v'₃, v'₄ ...
+v'_1, v'_2, v'_3, v'₄ \ldots
 $$
 
-with each other, since the first agrees with v, v', μ₁, μ₂, μ₃ ..., the second with v', v, μ₁, μ₂, μ₃ ... .
+agree, disregarding the arrangement. Similarly, the index series of $Q'$
+
+$$
+v, \mu_1, \mu_2, \mu_3 \ldots
+$$
+
+$$
+v_1, v'_2, v'_3, v'₄ \ldots
+$$
+
+agree. Thus the two index series of $P$ also agree
+
+$$
+v, v_1, v_2, v_3, v₄ \ldots
+$$
+
+$$
+v', v'_1, v'_2, v'_3, v'₄ \ldots
+$$
+
+with each other, since the first agrees with $v, v', \mu_1, \mu_2, \mu_3 \ldots$, the second with $v', v, \mu_1, \mu_2, \mu_3 \ldots$.
 
 For groups of order 2, which have only the one normal divisor 1, the theorem is evident, and thus it is proven generally through complete induction.
 
-If in two composition series of P, which we now want to represent with their index series as
+If in two composition series of $P$, which we now want to represent with their index series as
 
 $$
-P, P₁, P₂, P₃ ... P_{u-1}, 1
-$$
-
-$$
-j₁, j₂, j₃ ... j_{u-1}, j_u
+P, P_1, P_2, P_3 \ldots P_{u-1}, 1
 $$
 
 $$
-P, P'₁, P'₂, P'₃ ... P'_{s-1}, 1
+j_1, j_2, j_3 \ldots j_{u-1}, j_u
 $$
 
 $$
-j'₁, j'₂, j'₃ ... j'_{s-1}, j'_s
+P, P'_1, P'_2, P'_3 \ldots P'_{s-1}, 1
 $$
 
-a common member $P_r = P'_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P'_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r+1}, j_{r+2} ... j_u$ and $j'_{r+1}, j'_{r+2} ... j'_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
+$$
+j'_1, j'_2, j'_3 \ldots j'_{s-1}, j'_s
+$$
+
+a common member $P_r = P'_s$ occurs, then the theorem about the constancy of the index series also holds for the group $P_r = P'_s$, and from this it follows first that $s = r$ must be true, and that the index series $j_{r\+1}, j_{r\+2} \ldots j_u$ and $j'_{r\+1}, j'_{r\+2} \ldots j'_u$, must agree, disregarding the ordering. Consequently, the preceding parts of the index series
 
 $$
-j_1, j_2 ... j_r \text{ and } j'_1, j'_2 ... j'_r
+j_1, j_2 \ldots j_r \text{ and } j'_1, j'_2 \ldots j'_r
 $$
 
 must also agree.
@@ -834,13 +836,13 @@ Further Theorems about Composition Series.
 
 Many theorems hold for composition series, of which we will here derive the most important ones.
 
-II. If $P_r$ is any normal divisor of P, then there exists a composition series of P in which $P_r$ occurs.
+II. If $P_r$ is any normal divisor of $P$, then there exists a composition series of $P$ in which $P_r$ occurs.
 
-If $P_r$ is a greatest normal divisor of P, then we can set P_r = P₁ and continue the composition series arbitrarily from there. If however $P_r$ is not a greatest normal divisor of P, then we search for a greatest normal divisor P₁, which we denote with P₁. Then $P_r$ is a normal divisor of P₁. If it is a greatest one, then we set P_r = P₂ and continue the composition series arbitrarily. If however $P_r$ is still not a greatest normal divisor of P₁, then we search for a greatest normal divisor of P₁ that contains $P_r$ and continue in this way, until we finally reach $P_r$, which must occur after a finite number of steps. When we then append a composition series of $P_r$, we have a composition series of P in which $P_r$ occurs, as the theorem requires.
+If $P_r$ is a greatest normal divisor of $P$, then we can set $P_r = P_1$ and continue the composition series arbitrarily from there. If however $P_r$ is not a greatest normal divisor of $P$, then we search for a greatest normal divisor $P_1$, which we denote with $P_1$. Then $P_r$ is a normal divisor of $P_1$. If it is a greatest one, then we set $P_r = P_2$ and continue the composition series arbitrarily. If however $P_r$ is still not a greatest normal divisor of $P_1$, then we search for a greatest normal divisor of $P_1$ that contains $P_r$ and continue in this way, until we finally reach $P_r$, which must occur after a finite number of steps. When we then append a composition series of $P_r$, we have a composition series of $P$ in which $P_r$ occurs, as the theorem requires.
 
-In a composition series of a group P, by definition, each member is a normal divisor of each preceding one. The first member P₁ and the last member 1 are simultaneously normal divisors of P itself. For the intermediate P₂, P₃, ..., this will generally not be the case. In the composition series there are thus certain distinguished members, which are simultaneously normal divisors of P itself (they play a special role). From this we derive in the following still another important theorem.
+In a composition series of a group $P$, by definition, each member is a normal divisor of each preceding one. The first member $P_1$ and the last member 1 are simultaneously normal divisors of $P$ itself. For the intermediate $P_2, P_3, \ldots$, this will generally not be the case. In the composition series there are thus certain distinguished members, which are simultaneously normal divisors of $P$ itself (they play a special role). From this we derive in the following still another important theorem.
 
-Suppose Q is a member of a composition series of P that is simultaneously a normal divisor of P, while the following member $Q_1$ is not a normal divisor of $P$. Then among the groups $a^{-1} Q_1 a$ conjugate to $P$, there exist several different ones, which we want to denote as:
+Suppose $Q$ is a member of a composition series of $P$ that is simultaneously a normal divisor of $P$, while the following member $Q_1$ is not a normal divisor of $P$. Then among the groups $a^{-1} Q_1 a$ conjugate to $P$, there exist several different ones, which we want to denote as:
 $$
 Q_1, Q'_1, Q''_1, Q'''_1 \ldots
 $$
@@ -871,20 +873,21 @@ and the arrangement of the groups $Q_1, Q'_1 \ldots Q_1^{(r-1)}$ be chosen such 
 
 We want to prove that we can choose the composition series of $P$ such that 
 $$
-Q, Q_1, Q_2 \ldots R,\\\quad v \quad v \quad v
+Q, Q_1, Q_2 \ldots R,\\
+\quad v \quad v \quad v
 $$
 therein occurs, and that the indices in this part of the series are all equal to $v$. 
 
 The claim is correct for $r = 2$, and we prove it generally by complete induction, under the assumption that it has already been proven for $r$.
 
-If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r+1}$ is the intersection of $Q_1, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q'_r$. Then $Q'_r$ is different from $Q_r$, and $Q_{r+1}$ is the intersection of $Q_r$ and $Q'_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
+If $Q_r$ is not equal to $R$, then we choose $Q_1^{(r)}$ so that $Q_{r\+1}$ is the intersection of $Q_1, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$, and furthermore denote the intersection of $Q_r, Q'_1 \ldots Q_1^{(r-1)}, Q_1^{(r)}$ with $Q'_r$. Then $Q'_r$ is different from $Q_r$, and $Q_{r\+1}$ is the intersection of $Q_r$ and $Q'_r$. Now according to assumption (4) we have two corresponding pieces of the composition series with the constant index sequence $v$
 
 $$
 Q, Q_1 \ldots Q_{r-1} Q_r,\\
 Q, Q_1 \ldots Q_{r-1} Q'_r;
 $$
 
-for the second of these series is formed exactly like the first according to prescription (3), only that $Q_1^{(r)}$ has taken the place of $Q_1^{(r-1)}$. According to theorem §6, 2., therefore $Q_{r+1}$ is a greatest normal divisor of both $Q_r$ and $Q'_r$, and both with index $v$, and thus follows what was to be proven, that the composition series can be continued as:
+for the second of these series is formed exactly like the first according to prescription (3), only that $Q_1^{(r)}$ has taken the place of $Q_1^{(r-1)}$. According to theorem §6, 2., therefore $Q_{r\+1}$ is a greatest normal divisor of both $Q_r$ and $Q'_r$, and both with index $v$, and thus follows what was to be proven, that the composition series can be continued as:
 
 $$
 Q, Q_1 \ldots Q_{r-1}, Q_r, Q_{r+1},
@@ -912,7 +915,7 @@ P, P_1, P_2, P_3 \ldots\\
 j_1, j_2, j_3 \ldots
 $$
 
-in such a way that whenever a change occurs in the index series, thus $j_{r+1}$ is different from $j_r$, $P_r$ is a normal divisor of $P$.
+in such a way that whenever a change occurs in the index series, thus $j_{r\+1}$ is different from $j_r$, $P_r$ is a normal divisor of $P$.
 
 §8.
 Metacyclic Groups.
@@ -938,7 +941,8 @@ $$
 1, \pi, \pi^2 \ldots \pi^{j_n-1}
 $$
 
-(because $j_n$ is a prime number) are all different from each other and thus make up the whole group $P_{n-1}$; the cyclic group (2) is however certainly commutative, because for any two exponents $h$, $k$
+(because $j_n$ is a prime number) are all different from each other and thus make up the whole group $P_{n-1}$; the cyclic group (2) is however certainly commutative,
+because for any two exponents $h$, $k$
 
 $$
 \pi^h\pi^k = \pi^k\pi^h = \pi^{h+k}
@@ -946,7 +950,7 @@ $$
 
 holds. At the same time, according to the definition of the composition series, $P_{n-1}$ is a normal divisor of $P_{n-2}$.
 
-We therefore now assume that we have a commutative normal divisor $Q_r$ different from the unit of any group $P$ of series (1) and furthermore assume that when there are several divisors of $P_r$ of the nature of $Q_r$, that one of possibly lowest degree is taken for $Q_r$.
+We therefore now assume that we have a commutative normal divisor $Q_r$ different from the unit of any group $P_r$ of series (1) and furthermore assume that when there are several divisors of $P_r$ of the nature of $Q_r$, that one of possibly lowest degree is taken for $Q_r$.
 
 When we then demonstrate how one can derive from $Q_r$ a commutative normal divisor $Q_{r-1}$ of $P_{r-1}$ that also contains $Q_r$, we can continue this process until we have arrived at a commutative normal divisor $Q$ of $P$ itself, as our theorem requires.
 
@@ -1062,7 +1066,8 @@ exists.
 
 If now $\alpha, \beta$ both belong to the same group $Q_r$, then (10) follows from our assumption that $Q_r$ is commutative; and likewise if both occur in one of the other groups $Q'_r, Q''_r \ldots$
 
-But if $\alpha$ and $\beta$ are contained in two different groups, say in $Q_r$ and $Q'_r$, then we conclude as follows: Because $\beta$ is contained in $P_r$ and $Q_r$ is a normal divisor of $P_r$, therefore also
+But if $\alpha$ and $\beta$ are contained in two different groups, say in $Q_r$ and $Q'_r$, then we conclude as follows:
+Because $\beta$ is contained in $P_r$ and $Q_r$ is a normal divisor of $P_r$, therefore also
 
 $$
 \beta^{-1} \alpha \beta = \alpha'
